@@ -7,9 +7,8 @@ public class Main {
         Animal gato = new Animal("Gato");
         System.out.println("El nombre del animal es: " + gato.getName());
 
-        JOptionPane.showInputDialog(null, "Please enter");
-        
-
+        String name = JOptionPane.showInputDialog(null, "Please enter");
+        JOptionPane.showMessageDialog(null, "Your name is " + name);
 
     }
 }
